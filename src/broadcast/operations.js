@@ -1,6 +1,6 @@
 module.exports = [
   {
-    "roles": ["posting", "active", "owner"],
+    "roles": ["posting"],
     "operation": "vote",
     "params": [
       "voter",
@@ -10,7 +10,7 @@ module.exports = [
     ]
   },
   {
-    "roles": ["posting", "active", "owner"],
+    "roles": ["posting"],
     "operation": "comment",
     "params": [
       "parent_author",
